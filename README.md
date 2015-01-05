@@ -1,4 +1,4 @@
-#Battleship board game in python, pySide
+#Battleship board game in Python, PySide
 ---
 
 
