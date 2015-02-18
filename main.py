@@ -767,6 +767,8 @@ left click - place"""
 
     def reset(self):
         """Play once again with new settings"""
+
+        self.dialogWindow = DialogWindow()
         self.dialogWindow.show()
         self.close()
 
@@ -936,14 +938,14 @@ class DialogWindow(QWidget):
         h_conf_length = QtGui.QHBoxLayout()
         length_label = QLabel("Set board length: ")
         h_conf_length.addWidget(length_label)
-        self.length_input.setMaximum(12)
+        self.length_input.setMaximum(5)
         self.length_input.setMinimum(5)
         self.length_input.setDecimals(0)
         h_conf_length.addWidget(self.length_input)
 
         width_label = QLabel("Set board width: ")
         h_conf_length.addWidget(width_label)
-        self.width_input.setMaximum(12)
+        self.width_input.setMaximum(5)
         self.width_input.setMinimum(5)
         self.width_input.setDecimals(0)
         h_conf_length.addWidget(self.width_input)
