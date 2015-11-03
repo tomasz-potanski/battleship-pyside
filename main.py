@@ -1001,26 +1001,6 @@ class DialogWindow(QWidget):
         self.move(qr.topLeft())
 
 
-# data initialization
-# u1 = User(1, "local")
-# u2 = User(2, "computer", "Medium")
-# b1 = Board(u1, 5, 5)
-# b2 = Board(u2, 5, 5)
-# quantity = {3 : 1, 4: 1, 5:1} # ship length -> amount of ships
-
-# s5 = BattleShip(5, u1)
-# s4 = BattleShip(4, u1)
-# d = [s4, s5]
-# print(d.__str__())
-
-# s3 = BattleShip(3, u1)
-# u1.addShip(s5)
-# u1.addShip(s4)
-# u1.addShip(s3)
-# print (b1.setBattleship(0, 0, s5, "horizontal"))
-# print (b1.setBattleship(0, 2, s4, "horizontal"))
-# print (b1.setBattleship(0, 4, s3, "horizontal"))
-
 app = QApplication(sys.argv)
 
 dialog = DialogWindow()

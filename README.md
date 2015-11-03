@@ -2,7 +2,7 @@
 ---
 
 
-**Technologies**: Python, pySide, Git
+**Technologies**: Python, PySide, Git
 
 **Date**: January, 2014
 
