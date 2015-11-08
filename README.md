@@ -21,13 +21,13 @@ Due to used tools, the game should be platform-independent (should work on Windo
 
 **Requirements**:
 
-- Python3.4
-- Qt
+- Python2.7
+- Qt (brew install qt)
 - PySide
 
 **Run**: 
 ```sh 
-python main.py
+python start.py
 ```
 
 **Author: Tomasz Potanski, tomasz@potanski.pl**
