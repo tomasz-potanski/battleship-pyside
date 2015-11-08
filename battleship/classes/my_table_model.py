@@ -1,3 +1,8 @@
+from PySide.QtGui import QAbstractTableModel
+from PySide.QtCore import Signal
+from PySide import Qt
+
+
 class MyTableModel(QAbstractTableModel):
     """
     Custom table model for presenting amount of ships for user

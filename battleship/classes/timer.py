@@ -1,3 +1,6 @@
+from time import time
+
+
 class Timer:
     """
     Timer class to calculate the duration of the game
